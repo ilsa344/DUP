@@ -1,0 +1,39 @@
+.page-section {
+    padding: 8rem 0;
+    
+    hr.divider {
+        max-width: 3.25rem;
+        border-width: .2rem;
+        border-color: #f4623a;
+    }
+    hr.light {
+        border-color: #fff !important;
+    }
+    .text-white-50 {
+        color: rgba(255,255,255,.5)!important;
+    }
+    .mb-4, .my-4 {
+        margin-bottom: 1.5rem!important;
+    }
+    .btn-xl {
+        padding: 1.25rem 2.25rem;
+        font-size: .85rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        border: none;
+        border-radius: 10rem;
+    }
+    .btn-light {
+        color: #212529;
+        background-color: #f8f9fa;
+        border-color: #f8f9fa;
+        &:hover {
+            color: #212529;
+            background-color: #e2e6ea;
+            border-color: #dae0e5;
+        }
+    }
+}
+.bg-primary {
+    background-color: #f4623a!important;
+}

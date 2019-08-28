@@ -1,0 +1,17 @@
+.row {
+    .mt-5, .my-5 {
+        margin-top: 3rem!important;
+        .text-primary {
+            color: #f4623a!important;
+            .fa-gem:before {
+                content: "\f3a5";
+            }
+        }
+        mb-2, .my-2 {
+            margin-bottom: .5rem!important;
+        }
+        .text-muted {
+            color: #6c757d!important;
+        }
+    }
+}
